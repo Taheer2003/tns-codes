@@ -6,7 +6,7 @@ public class ThreadLifeCycleDemo {
 	 MyChildThread myThread = new MyChildThread();
 			 
 		        System.out.println("before runnable stage thread is alive or not "+ myThread.isAlive());
-		      myThread.start();
+		     myThread.start();
 		      try {
 					Thread.sleep(4000);
 				}catch(InterruptedException e)
