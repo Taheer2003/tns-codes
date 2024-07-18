@@ -44,7 +44,8 @@ public class ListDemo {
 		list1.clear();
 		System.out.println("List is: "+list1);
 		
-		//Generic : store and let us write the code which can able to access any type of data. Define class with the type parameters and It is a method to operate on various objects
+		//Generic : store and let us write the code which can able to access any type of data.
+		//Define class with the type parameters and It is a method to operate on various objects
 		
 		List<String> names = new ArrayList<>();
 		names.add("Amit");

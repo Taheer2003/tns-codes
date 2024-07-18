@@ -9,6 +9,7 @@ public class Student extends Citizen {
 
 		public Student() {
 			super();
+			System.out.println("yes");
 		}
 
 		public Student(String name, String aadharNo, String address, long phno, int rollNo, String collegeName) {
